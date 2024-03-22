@@ -1,0 +1,30 @@
+group: french_bench
+task:
+  # question answering
+  - french_bench_boolqa
+  - french_bench_fquadv2
+  - french_bench_fquadv2_hasAns
+  - french_bench_fquadv2_bool
+  - french_bench_multifquad
+  # question generation
+  - french_bench_fquadv2_genq
+  # grammar and vocab
+  - french_bench_grammar
+  - french_bench_vocab
+  - french_bench_reading_comp
+  # NLI
+  - french_bench_xnli
+  - french_bench_topic_based_nli
+  # summarization
+  - french_bench_orangesum_abstract
+  - french_bench_orangesum_title
+    # Multiple choice reasoning
+  - belebele_fra_Latn
+  # Translation
+  - wmt_fr_en
+  - wmt_en_fr
+  # Does not require few shot
+  # Bias
+  # - crows_pairs_french
+  # Perplexity
+  # - french_bench_opus_perplexity
